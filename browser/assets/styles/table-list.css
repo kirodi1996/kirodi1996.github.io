@@ -1,0 +1,151 @@
+.search {
+    display: flex;
+    width: 100%;
+}
+
+.search-wrapper {
+    display: flex;
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-wrapper i {
+    color: #1470B9;
+    padding: 0 1rem;
+  }
+
+  input {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  input::placeholder {
+    color: #C4C3C3
+  }
+
+  .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding: 20px 0;
+  }
+
+  .header>div {
+      display: flex;
+  }
+
+  .header div i{
+    font-size: 50px;
+    padding: 0 10px;
+    color: #1470B9;
+  }
+
+  .header div button{
+      border: none;
+      outline: none;
+  }
+
+  .hr{
+    width: 100%;
+    height: 1px;
+    background-color:#C4C3C3; 
+    margin: 20px 0;
+  }
+
+  .action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .action a:first-child{
+      color: #1470B9;
+  }
+
+  .action a:last-child{
+      color: #EB0000;
+  }
+
+  .main{
+      padding: 0 15px;
+  }
+
+  .table-scroll{
+    /*width:100%; */
+    display: block;
+    empty-cells: show;
+    
+    /* Decoration */
+    border-spacing: 0;
+  }
+  
+  .table-scroll thead{
+    color: #707070;
+    position:relative;
+    display: block;
+    width:100%;
+    overflow-y: scroll;
+  }
+  
+  .table-scroll tbody{
+    /* Position */
+    display: block; position:relative;
+    width:100%; overflow-y:scroll;
+    /* Decoration */
+    border-top: 1px solid rgba(0,0,0,0.2);
+  }
+  
+  .table-scroll tr{
+    width: 100%;
+    display:flex;
+  }
+  
+  .table-scroll td,.table-scroll th{
+    flex-basis:100%;
+    flex-grow:2;
+    display: block;
+    padding: 1rem;
+    text-align:left;
+    color: #080705;
+  }
+  
+  /* Other options */
+  
+  .table-scroll.small-first-col td:first-child,
+  .table-scroll.small-first-col th:first-child{
+    flex-basis:20%;
+    flex-grow:1;
+  }
+  
+  .table-scroll tbody tr:nth-child(2n){
+    background-color: #f2f2f2;
+  }
+
+  .table-scroll tbody tr:nth-child(2n+1){
+    background-color: #FFFFFF;
+  }
+  
+  .body-half-screen{
+    max-height: 50vh;
+  }
+  
+  .small-col{flex-basis:10%;}
+
+  .table-scroll th{
+   color: #707070;  
+  }

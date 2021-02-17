@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box; 
+  } 
+
+/* Style inputs, select elements and textareas */
+input[type=text],textarea{
+    width: 526px;
+    padding: 12px;
+    margin-right: 400px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical; 
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 10px 10px 10px 0; 
+    margin-left: 180px;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #1470B9;
+    color: white;
+    padding: 12px 20px; 
+    border: none;  
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer; 
+  }
+  
+  /* Style the container */
+  .container {  
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  } 
+
+  .image-upload>input {
+    display: none; 
+    width:0;
+    height:0;
+  } 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 426px;
+        margin-top: 10px;
+    }
+  }

@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0; 
+    /* background-color: blue; */
+    box-sizing: border-box;
+  }  
+  
+  .popUpBox{
+    width: 400px;
+    /* overflow: hidden; */
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 9999; */
+    padding-top: 50px; 
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-bottom: 130px;
+    text-align: center;
+    /* display: none; */
+  }   
+
+
+  input[type=text], textarea{
+    width: 256px;
+    padding: 20px;  
+    border: 1px solid #C4C2C2;
+    border-radius: 5px; 
+    box-sizing: border-box;
+    resize: vertical; 
+  } 
+ 
+
+.closeModal {
+  position: absolute; 
+  left: 110px; 
+  bottom: 20px;
+}
+
+.closeModal button { 
+    border: 1px solid #707070;
+    border-radius: 5px;
+    font-size: 24px;  
+    color: #080705;  
+    padding-top: 10px; 
+    padding-left: 30px;
+    padding-right: 30px; 
+    padding-bottom: 10px;
+    background: #FFFFFF;
+  } 
+ 
+.confirmModal { 
+  position: absolute; 
+  top: 390px;
+  right: 110px;
+}  
+
+.confirmModal button { 
+  border: 1px solid #1470B9;
+  border-radius: 5px;
+  font-size: 24px;  
+  color: #FFFFFF;  
+  padding-top: 10px; 
+  padding-left: 30px;
+  padding-right: 30px; 
+  padding-bottom: 10px;
+ background-color: #1470B9; 
+}
+
+

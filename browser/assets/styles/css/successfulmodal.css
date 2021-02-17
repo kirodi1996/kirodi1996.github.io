@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: blue;
+    box-sizing: border-box;
+  }  
+  
+  .popUpBox{
+    width: 400px; 
+    /* overflow: hidden; */
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    /* z-index: 9999; */
+    padding: 50px;
+    text-align: center;
+    /* display: none; */
+  }    
+
+  button { 
+    border: 1px solid #707070;
+    border-radius: 5px;
+    font-size: 24px;  
+    color: #080705;  
+    margin-top: 15px; 
+    padding-top: 10px; 
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-bottom: 10px;
+    background: #FFFFFF;
+  } 
+
+  .iconview { 
+    font-size: 74px;
+    color: #43C59E;
+  }
